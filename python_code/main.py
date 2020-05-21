@@ -1,0 +1,16 @@
+#main
+import os
+os.system(r" .\synonyms_install.bat")
+os.system(r"python .\arrange.py")
+os.system(r"python .\arrange_ttn.py")
+os.system(r"python .\arrange_ttu.py")
+os.system(r"python .\generate.py")
+os.system(r"python .\generate_ttn.py")
+os.system(r"python .\generate_ttu.py")
+os.system(r"python .\matrix_generate_n.py")
+os.system(r"python .\matrix_generate_u.py")
+os.system(r"python .\final.py")
+print(r"All process complete")
+print(r"Ready for NONLINEAR REGRESSION   FILE=matrix_generate_n.xls  matrix_generate_u.xls")
+print(r"Run MATLAB manually!")
+os.system(r"pause")
